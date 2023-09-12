@@ -1,2 +1,3 @@
-# book_collection
-Repository for my book collection app
+# README
+
+This is a new README so that AJ stops yelling at me. Life is pain.
