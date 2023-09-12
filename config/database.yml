@@ -88,3 +88,5 @@ production:
   database: book_collection_production
   username: book_collection
   password: <%= ENV["BOOK_COLLECTION_DATABASE_PASSWORD"] %>
+  url: <%= ENV['postgres://nwedeediwrercz:481cab1c6c1557c06d1eef52a21d8bceaa6dd6c42abeba660ed28e0d71674c1e@ec2-52-205-171-232.compute-1.amazonaws.com:5432/d8c8runv4j1aeq'] %>
+
