@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :user_books
-  resources :users_path
+  resources :users
   root 'user_books#index'
 
 
