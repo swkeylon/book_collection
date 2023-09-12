@@ -84,8 +84,4 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 production:
-  <<: *default
-  database: book_collection_production
-  username: book_collection
-  password: <%= ENV["BOOK_COLLECTION_DATABASE_PASSWORD"] %>
-  url: <%= ENV['postgresql-symmetrical-46989'] %>
+  url: <%= ENV['DATABASE_URL'] %>
