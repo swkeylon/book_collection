@@ -1,4 +1,7 @@
 class Book < ApplicationRecord
+    has_many :users, through: :user_books
+    has_many :user_books
+
     validates :title, presence: true
     validates :author, presence: true
     validates :price, presence: true, format: { with: /\A\d+(?:\.\d{2})?\z/ }, numericality: { greater_than: 0, less_than: 1000000 }
